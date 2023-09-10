@@ -1,0 +1,15 @@
+@mixin defaultD-flex($d-flex:null,$jc:null,$ai:null,$gap:null,$f-d:null){
+    display: $d-flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap:$gap;
+    flex-direction: $f-d;
+}
+@mixin text-style ($f-size:null,$f-weight:null,$f-color:null,$f-align:null,$f-family:null,$l-height:null){
+    font-size: $f-size;
+    font-weight: $f-weight;
+    color: $f-color;
+    text-align: $f-align;
+    font-family: $f-family;
+    line-height: $l-height;
+}

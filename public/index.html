@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="../scss/style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header-container" class="container">
+        <div class="header-group">
+          <div class="header-left">
+            <figure>
+              <img src="../images/Logo.svg" alt="" />
+            </figure>
+            <nav class="desktop-navbar">
+              <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-right">
+            <div class="btn-group">
+              <div class="search-group">
+                <input type="text" class="search-inpt">
+
+                <span id="search" class="material-symbols-outlined">
+                  search
+                </span>
+              </div>
+              <div class="btn">
+                <div class="btn__indicator">
+                  <div class="btn__icon-container">
+                    <i class="btn__icon fa-solid"></i>
+                  </div>
+                </div>
+              </div>
+              <span id="hamburger" class="material-symbols-outlined">menu</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="mobil-navbar">
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner">
+        <div class="container">
+          <div class="banner-title">
+            <h1>All your resources in <strong>one place</strong></h1>
+          </div>
+          <div class="banner-card">
+            <div class="banner-card--left">
+              <figure>
+                <img src="../images/banner.jpeg" alt="" />
+              </figure>
+            </div>
+            <div class="banner-card--right">
+              <div class="banner-card--right--top">
+                <div class="banner-link">
+                  <a href="#">Analytics</a>
+                </div>
+                <div class="banner-content">
+                  <h3>What Will Website Be Like In 100 Years?</h3>
+                  <p>Dolorem laborum vero laudantium perspiciatis iste</p>
+                </div>
+              </div>
+              <div class="banner-card--right--bottom">
+                <figure>
+                  <img src="../images/author3.png" alt="" />
+                </figure>
+                <div class="person-info">
+                  <span>Carla Rosa</span>
+                  <span>March 28, 2023 • 2 min read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <div class="container">
+          <ul class="works-top">
+            <li><a href="">View all</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">Analytics</a></li>
+            <li><a href="">Marketing</a></li>
+            <li><a href="">Startups</a></li>
+            <li><a href="">Business</a></li>
+          </ul>
+          <div class="works-boxes"></div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-top--left">
+              <figure>
+                <img src="../images/Logo.svg" alt="" />
+              </figure>
+              <div class="addres">
+                <strong>Address:</strong>
+                <span>2774 Oak Drive, Plattsburgh, New York</span>
+              </div>
+              <div class="contact">
+                <strong>Contact:</strong>
+                <span>518-564-3200 <br />contact@startAI.com</span>
+              </div>
+            </div>
+            <div class="footer-top--right">
+              <ul class="first">
+                <li><a href="">About us</a></li>
+                <li><a href="">Book a demo</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+              <ul class="first">
+                <li><a href="">About us</a></li>
+                <li><a href="">Book a demo</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+              <ul class="first">
+                <li><a href="">About us</a></li>
+                <li><a href="">Book a demo</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
